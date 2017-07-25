@@ -1,0 +1,20 @@
+https://www.google.com valid
+https://///www.google.com invalid
+http://www.google.com
+https://www.facebook.com
+ftp://www.google.com
+ht://www.google.com
+ftpp://www.google.com
+arusha://www.google.com
+http://www.oregonstate.edu:0
+http://www.oregonstate.edu:1
+http://www.oregonstate.edu:8080
+http://www.oregonstate.edu:99999
+http://www.oregonstate.edu:qwerty
+http://www.oregonstate.edu:100000
+http://www.google.com/whats/that?name=elephant
+http://www.google.com/manual?field1=value1&field2=value2
+http://www.google.com/manual?
+http://www.google.com/manual/?
+http://www.google.com/manual/?key=test
+http://www.google.com/manual/?action=value
