@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-// Cherie Lo - loy@oregonstate.edu
+// Cherie Lo
 // Corey Hemphill - hemphilc@oregonstate.edu
-// Dat Tran - tranm2@oregonstate.edu
+// Dat Tran
 // CS362_400 - Spring 2016
 // Team Project - Part B - Manual/Partition/Unit Tests
 
@@ -231,9 +231,9 @@ private boolean printIndex = false; // Print index that indicates current scheme
 	   // Expected Invalid Characters
 	   urlVal1 = "http://www.goog{e.com";
 	   urlVal2 = "http://www.google.com}";
-	   urlVal3 = "http://www.googl€.com";
+	   urlVal3 = "http://www.googlÂ€.com";
 	   urlVal4 = "http://www.google.com`";
-	   urlVal5 = "http://www.google.com“";
+	   urlVal5 = "http://www.google.comÂ“";
 	   urlVal6 = "http://www.go^gle.com";
 	   urlVal7 = "http://www.%oogle.com";
 	   urlVal8 = "http://www.go gle.com";
