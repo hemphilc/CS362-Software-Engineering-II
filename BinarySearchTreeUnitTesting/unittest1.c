@@ -19,24 +19,29 @@ struct Node *_removeLeftMost(struct Node *cur);
 struct Node *_removeNode(struct Node *cur, TYPE val);
 
 void testContainsBSTree() {
+	
     struct BSTree *tree = buildBSTTree();
     
     struct data myData1;
-	struct data myData2;
-	struct data myData3;
-	struct data myData4;
-	struct data myData5;
+    struct data myData2;
+    struct data myData3;
+    struct data myData4;
+    struct data myData5;
 	
-	myData1.number = 50;
-	myData1.name = "rooty";
-	myData2.number = 13;
-	myData2.name = "lefty";
-	myData3.number = 110;
-	myData3.name = "righty";
-	myData4.number = 10;
-	myData4.name = "lefty of lefty";
+    myData1.number = 50;
+    myData1.name = "rooty";
+	
+    myData2.number = 13;
+    myData2.name = "lefty";
+	
+    myData3.number = 110;
+    myData3.name = "righty";
+	
+    myData4.number = 10;
+    myData4.name = "lefty of lefty";
+	
     myData5.number = 111;
-	myData5.name = "not in tree";
+    myData5.name = "not in tree";
     
     if (containsBSTree(tree, &myData1))
         printf("containsBSTree(): PASS when test containing 50 as root\n");
