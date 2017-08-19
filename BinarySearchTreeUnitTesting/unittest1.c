@@ -4,14 +4,14 @@
 #include "structs.h"
 
 struct Node {
-	TYPE val;
-	struct Node *left;
-	struct Node *right;
+    TYPE val;
+    struct Node *left;
+    struct Node *right;
 };
 
 struct BSTree {
-	struct Node *root;
-	int cnt;
+    struct Node *root;
+    int cnt;
 };
 
 TYPE _leftMost(struct Node *cur);
